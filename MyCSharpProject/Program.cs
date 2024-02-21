@@ -10,7 +10,17 @@ namespace Variables
         public static void Main(string[] args)
         {
             byte number = 2;
-            Console.WriteLine(number);   
+            int count = 10;
+            char character ='A';
+            string firstName = "Moses";
+            bool isWorking = false;
+
+            Console.WriteLine(number);
+            Console.WriteLine(character);
+            Console.WriteLine(firstName);
+            Console.WriteLine(isWorking);
+            
+               
         }
     }    
 }
