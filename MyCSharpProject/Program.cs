@@ -9,7 +9,13 @@ namespace Variables
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
+            // Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
+            var number = "12345";
+            int i = Convert.ToInt32(number);
+            Console.WriteLine(i);
+            
         }
+
+
     }    
 }
