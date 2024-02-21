@@ -9,18 +9,7 @@ namespace Variables
     {
         public static void Main(string[] args)
         {
-            byte number = 2;
-            int count = 10;
-            char character ='A';
-            string firstName = "Moses";
-            bool isWorking = false;
-
-            Console.WriteLine(number);
-            Console.WriteLine(character);
-            Console.WriteLine(firstName);
-            Console.WriteLine(isWorking);
-            
-               
+            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
         }
     }    
 }
