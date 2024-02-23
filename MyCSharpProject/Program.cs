@@ -13,9 +13,16 @@ namespace Variables
             var number = "12345";
             int i = Convert.ToInt32(number);
             Console.WriteLine(i);
+
+            operators
+            1. Logical
+            2. Arithmetic
+            3. Assignmet
             
         }
 
 
     }    
 }
+
+
